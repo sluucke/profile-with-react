@@ -3,6 +3,9 @@ Profile Mobile Header with ReactJS
 Maked with <3 by Sluucke
 
 All Credits to [JR](https://github.com/joaorceschini/profile) and ur [lives](https://www.twitch.tv/joaorceschini)
+
+This code with basic HTML in [JR's](https://github.com/joaorceschini/profile) github
+
 ## Installation
 You need installed [Node](https://nodejs.org/en/download/) and [NPM](https://npmjs.com) or [YARN](https://yarnpkg.com/) to install Profile UI.
 
