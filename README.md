@@ -7,7 +7,7 @@ All Credits to [JR](https://github.com/joaorceschini/profile) and ur [lives](htt
 This code with basic HTML in [JR's](https://github.com/joaorceschini/profile) github
 
 ## Installation
-You need installed [Node](https://nodejs.org/en/download/) and [NPM](https://npmjs.com) or [YARN](https://yarnpkg.com/) to install Profile UI.
+You need [Node](https://nodejs.org/en/download/) and [NPM](https://npmjs.com) or [YARN](https://yarnpkg.com/) to install Profile UI.
 
 With NPM:
 ```
