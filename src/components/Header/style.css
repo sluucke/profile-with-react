@@ -1,0 +1,144 @@
+header {
+  height: 80px;
+  width: 100vw;
+  background: var(--bg-blue);
+  position: relative;
+}
+header .menu {
+  height: 80px;
+  width: 100%;
+}
+header .menu .logo {
+  padding: 10px;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: calc(50vw - 50px);
+  margin-top: 30px;
+  z-index: 2;
+}
+header .menu .logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding: 2px;
+  transition: all 400ms ease-in-out;
+}
+header .menu .btn-open {
+  opacity: 1;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  right: 20px;
+  top: 35%;
+  z-index: 2;
+  transition: opacity 300ms ease-in-out;
+  outline: none;
+}
+header .menu .btn-open img {
+  width: 35px;
+  height: 25px;
+}
+header .menu .btn-close {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  right: 20px;
+  top: 35%;
+  z-index: 2;
+  transition: opacity 300ms ease-in-out;
+  outline: none;
+}
+header .menu .btn-close img {
+  width: 30px;
+  height: 30px;
+}
+header .menu nav {
+  list-style: none;
+  width: 300px;
+  margin: 0;
+  height: 100vh;
+  background: var(--bg-gray);
+  position: fixed;
+  right: -300px;
+  top: 0;
+  padding: 40px 10px;
+  padding-bottom: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: right 0.4s ease-in-out;
+}
+header .menu nav ul {
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  padding-top: 200px;
+}
+header .menu nav ul li {
+  align-items: center;
+  padding: 2px;
+}
+header .menu nav ul li a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--dark-blue);
+}
+header .menu nav .info {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  width: 100%;
+  flex-direction: column;
+  height: 80px;
+}
+header .menu nav .info hr {
+  width: 100%;
+  height: 2px;
+  border-bottom: none;
+  border-color: var(--black-1);
+  margin: 0;
+}
+header .menu nav .info .content {
+  padding: 10px;
+}
+header .menu nav .info .content picture img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+header .menu nav .info .content > div {
+  padding-left: 10px;
+}
+header .menu nav .info .content > div a {
+  text-decoration: none;
+  color: var(--dark-blue);
+  padding: 3px 0;
+}
+header .menu.open .logo {
+  position: absolute;
+  right: calc(300px - 210px);
+}
+header .menu.open .logo img {
+  width: 100px;
+  height: 100px;
+}
+header .menu.open .btn-open {
+  opacity: 0;
+  pointer-events: none;
+}
+header .menu.open .btn-close {
+  opacity: 1;
+  pointer-events: initial;
+}
+header .menu.open nav {
+  right: 0;
+}
+header .menu.open nav .info {
+  opacity: 1;
+}

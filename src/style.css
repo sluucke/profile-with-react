@@ -1,0 +1,38 @@
+:root {
+  --bg: #e0e1dd;
+  --bg-blue: #778da9;
+  --bg-gray: #e5e3df;
+  --dark-blue: #415a77;
+  --black-1: #0000001a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body,
+div,
+article,
+aside,
+footer,
+header,
+main,
+nav,
+section,
+ul,
+ol,
+li,
+button,
+figure {
+  display: flex;
+}
+body {
+  font-family: Manrope, sans-serif;
+  flex-direction: column;
+  margin: 0;
+  font-weight: normal;
+  background-color: var(--bg);
+  height: 100vh;
+}
